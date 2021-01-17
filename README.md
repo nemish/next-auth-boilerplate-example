@@ -8,7 +8,7 @@ This is a result repo of [this-small-tutorial](https://yaraoncode.me/post/buildi
 docker pull postgres:12.3-alpine
 cp .env.local.example .env.local
 # Fill necessary providers secrets with the ones got from Twitter and Google
-cp .env.example .env.local
+cp .env.example .env
 yarn
 yarn start-db
 npx prisma migrate dev --preview-feature
